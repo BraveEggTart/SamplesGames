@@ -30,7 +30,7 @@ jobs:
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSHKEY }} 
         ARGS: "-avzr --delete"
-        SOURCE: ".vuepress/dist/*"
+        SOURCE: "dist/*"
         REMOTE_HOST: ${{ secrets.HOST }}
         REMOTE_USER: ${{ secrets.USER }}
         TARGET: "/var/www/unity/"
