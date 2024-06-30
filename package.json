@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "vitepress": "^1.2.3",
+    "vitepress-theme-ououe": "^1.0.2"
+  }
+}
